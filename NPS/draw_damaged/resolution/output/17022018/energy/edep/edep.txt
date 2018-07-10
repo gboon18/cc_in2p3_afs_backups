@@ -1,0 +1,810 @@
+energy deposition in NPS with e- 500MeV 0_0mm
+mean     : 495.724
+mean err : 0.0944002
+sigma    : 3.47972
+sigma err: 0.135583
+chi2     : 44.9258
+ndf      : 9
+chi2/ndf : 4.99176
+
+optical photons in NPS with e- 500MeV 0_0mm
+mean     : 5627.3
+mean err : 2.78503
+sigma    : 86.4416
+sigma err: 2.69339
+chi2     : 27.2202
+ndf      : 26
+chi2/ndf : 1.04693
+
+optical photons in PMT with e- 500MeV 0_0mm
+mean     : 7595.81
+mean err : 4.87729
+sigma    : 146.173
+sigma err: 4.81036
+chi2     : 42.7883
+ndf      : 30
+chi2/ndf : 1.42628
+
+energy deposition in NPS with e- 1GeV 0_0mm
+mean     : 990.415
+mean err : 0.175762
+sigma    : 5.37257
+sigma err: 0.194115
+chi2     : 60.1701
+ndf      : 7
+chi2/ndf : 8.59573
+
+optical photons in NPS with e- 1GeV 0_0mm
+mean     : 11258.9
+mean err : 3.47535
+sigma    : 126.865
+sigma err: 3.52584
+chi2     : 19.1383
+ndf      : 20
+chi2/ndf : 0.956915
+
+optical photons in PMT with e- 1GeV 0_0mm
+mean     : 15197.9
+mean err : 6.92105
+sigma    : 220.021
+sigma err: 7.12959
+chi2     : 26.7067
+ndf      : 24
+chi2/ndf : 1.11278
+
+energy deposition in NPS with e- 3_25GeV 0_0mm
+mean     : 3209.35
+mean err : 0.540524
+sigma    : 16.4486
+sigma err: 0.634993
+chi2     : 24.9787
+ndf      : 6
+chi2/ndf : 4.16311
+
+optical photons in NPS with e- 3_25GeV 0_0mm
+mean     : 36536.5
+mean err : 9.02956
+sigma    : 279.446
+sigma err: 9.91242
+chi2     : 3.88523
+ndf      : 11
+chi2/ndf : 0.353203
+
+optical photons in PMT with e- 3_25GeV 0_0mm
+mean     : 49451.6
+mean err : 14.6138
+sigma    : 417.601
+sigma err: 14.6143
+chi2     : 8.36412
+ndf      : 12
+chi2/ndf : 0.69701
+
+energy deposition in NPS with e- 5_5GeV 0_0mm
+mean     : 5424.76
+mean err : 0.77157
+sigma    : 28.1852
+sigma err: 0.910386
+chi2     : 34.7212
+ndf      : 7
+chi2/ndf : 4.96017
+
+optical photons in NPS with e- 5_5GeV 0_0mm
+mean     : 61762.5
+mean err : 11.0304
+sigma    : 438.459
+sigma err: 13.053
+chi2     : 14.1997
+ndf      : 11
+chi2/ndf : 1.29088
+
+optical photons in PMT with e- 5_5GeV 0_0mm
+mean     : 83749.9
+mean err : 21.6158
+sigma    : 577.896
+sigma err: 19.6702
+chi2     : 15.0295
+ndf      : 10
+chi2/ndf : 1.50295
+
+energy deposition in NPS with e- 7_75GeV 0_0mm
+mean     : 7643.38
+mean err : 1.0734
+sigma    : 34.1123
+sigma err: 1.14622
+chi2     : 26.9992
+ndf      : 6
+chi2/ndf : 4.49987
+
+optical photons in NPS with e- 7_75GeV 0_0mm
+mean     : 87023
+mean err : 15.5572
+sigma    : 549.433
+sigma err: 18.154
+chi2     : 12.0067
+ndf      : 9
+chi2/ndf : 1.33407
+
+optical photons in PMT with e- 7_75GeV 0_0mm
+mean     : 118066
+mean err : 25.2082
+sigma    : 688.81
+sigma err: 25.3408
+chi2     : 6.60359
+ndf      : 8
+chi2/ndf : 0.825449
+
+energy deposition in NPS with e- 10GeV 0_0mm
+mean     : 9853.63
+mean err : 1.71649
+sigma    : 47.2777
+sigma err: 1.79218
+chi2     : 22.7568
+ndf      : 6
+chi2/ndf : 3.79281
+
+optical photons in NPS with e- 10GeV 0_0mm
+mean     : 112223
+mean err : 18.2767
+sigma    : 650.1
+sigma err: 19.4633
+chi2     : 22.2082
+ndf      : 9
+chi2/ndf : 2.46757
+
+optical photons in PMT with e- 10GeV 0_0mm
+mean     : 152334
+mean err : 34.7588
+sigma    : 825.249
+sigma err: 33.2744
+chi2     : 3.98946
+ndf      : 7
+chi2/ndf : 0.569923
+
+energy deposition in NPS with e- 500MeV 0_5mm
+mean     : 495.395
+mean err : 0.0902475
+sigma    : 3.31257
+sigma err: 0.116455
+chi2     : 58.939
+ndf      : 9
+chi2/ndf : 6.54878
+
+optical photons in NPS with e- 500MeV 0_5mm
+mean     : 5626.64
+mean err : 2.65988
+sigma    : 87.4934
+sigma err: 2.69838
+chi2     : 35.3392
+ndf      : 26
+chi2/ndf : 1.3592
+
+optical photons in PMT with e- 500MeV 0_5mm
+mean     : 7592.25
+mean err : 4.16776
+sigma    : 145.386
+sigma err: 4.33476
+chi2     : 34.8302
+ndf      : 31
+chi2/ndf : 1.12355
+
+energy deposition in NPS with e- 1GeV 0_5mm
+mean     : 989.433
+mean err : 0.162147
+sigma    : 5.28036
+sigma err: 0.162912
+chi2     : 51.9627
+ndf      : 8
+chi2/ndf : 6.49533
+
+optical photons in NPS with e- 1GeV 0_5mm
+mean     : 11241.5
+mean err : 4.41826
+sigma    : 131.962
+sigma err: 4.08144
+chi2     : 23.9661
+ndf      : 20
+chi2/ndf : 1.1983
+
+optical photons in PMT with e- 1GeV 0_5mm
+mean     : 15180.1
+mean err : 6.70656
+sigma    : 228.972
+sigma err: 7.5832
+chi2     : 28.0795
+ndf      : 24
+chi2/ndf : 1.16998
+
+energy deposition in NPS with e- 3_25GeV 0_5mm
+mean     : 3206.32
+mean err : 0.533143
+sigma    : 17.1658
+sigma err: 0.629258
+chi2     : 25.7269
+ndf      : 7
+chi2/ndf : 3.67527
+
+optical photons in NPS with e- 3_25GeV 0_5mm
+mean     : 36467.2
+mean err : 9.49117
+sigma    : 301.18
+sigma err: 10.6103
+chi2     : 8.56888
+ndf      : 12
+chi2/ndf : 0.714073
+
+optical photons in PMT with e- 3_25GeV 0_5mm
+mean     : 49420.8
+mean err : 11.1097
+sigma    : 446.079
+sigma err: 11.6743
+chi2     : 14.7078
+ndf      : 16
+chi2/ndf : 0.919239
+
+energy deposition in NPS with e- 5_5GeV 0_5mm
+mean     : 5416.54
+mean err : 0.968359
+sigma    : 31.4714
+sigma err: 1.10866
+chi2     : 43.1784
+ndf      : 8
+chi2/ndf : 5.3973
+
+optical photons in NPS with e- 5_5GeV 0_5mm
+mean     : 61635.1
+mean err : 14.6692
+sigma    : 496.576
+sigma err: 17.4232
+chi2     : 29.0024
+ndf      : 12
+chi2/ndf : 2.41687
+
+optical photons in PMT with e- 5_5GeV 0_5mm
+mean     : 83648.6
+mean err : 17.0691
+sigma    : 619.904
+sigma err: 17.5106
+chi2     : 9.01692
+ndf      : 12
+chi2/ndf : 0.75141
+
+energy deposition in NPS with e- 7_75GeV 0_5mm
+mean     : 7616.59
+mean err : 1.44171
+sigma    : 50.8346
+sigma err: 1.67919
+chi2     : 88.7514
+ndf      : 10
+chi2/ndf : 8.87514
+
+optical photons in NPS with e- 7_75GeV 0_5mm
+mean     : 86775.4
+mean err : 21.6442
+sigma    : 657.814
+sigma err: 24.3737
+chi2     : 20.1622
+ndf      : 11
+chi2/ndf : 1.83293
+
+optical photons in PMT with e- 7_75GeV 0_5mm
+mean     : 117808
+mean err : 21.3635
+sigma    : 790.332
+sigma err: 21.7042
+chi2     : 19.6706
+ndf      : 11
+chi2/ndf : 1.78824
+
+energy deposition in NPS with e- 10GeV 0_5mm
+mean     : 9817.83
+mean err : 2.02641
+sigma    : 67.4932
+sigma err: 2.35255
+chi2     : 62.2048
+ndf      : 10
+chi2/ndf : 6.22048
+
+optical photons in NPS with e- 10GeV 0_5mm
+mean     : 111821
+mean err : 30.71
+sigma    : 940.247
+sigma err: 41.2224
+chi2     : 21.3168
+ndf      : 11
+chi2/ndf : 1.93789
+
+optical photons in PMT with e- 10GeV 0_5mm
+mean     : 152036
+mean err : 29.1902
+sigma    : 888.648
+sigma err: 28.2306
+chi2     : 9.33941
+ndf      : 9
+chi2/ndf : 1.03771
+
+energy deposition in NPS with e- 500MeV 1_0mm
+mean     : 494.719
+mean err : 0.109382
+sigma    : 3.67386
+sigma err: 0.142128
+chi2     : 46.4851
+ndf      : 10
+chi2/ndf : 4.64851
+
+optical photons in NPS with e- 500MeV 1_0mm
+mean     : 5613.9
+mean err : 2.2311
+sigma    : 93.1719
+sigma err: 2.29693
+chi2     : 33.5294
+ndf      : 31
+chi2/ndf : 1.08159
+
+optical photons in PMT with e- 500MeV 1_0mm
+mean     : 7578.98
+mean err : 5.1414
+sigma    : 150.09
+sigma err: 5.21508
+chi2     : 31.3093
+ndf      : 30
+chi2/ndf : 1.04364
+
+energy deposition in NPS with e- 1GeV 1_0mm
+mean     : 987.431
+mean err : 0.17495
+sigma    : 6.68838
+sigma err: 0.217997
+chi2     : 43.5447
+ndf      : 10
+chi2/ndf : 4.35447
+
+optical photons in NPS with e- 1GeV 1_0mm
+mean     : 11218.8
+mean err : 3.34955
+sigma    : 143.516
+sigma err: 3.73522
+chi2     : 38.233
+ndf      : 23
+chi2/ndf : 1.66231
+
+optical photons in PMT with e- 1GeV 1_0mm
+mean     : 15172.7
+mean err : 6.97676
+sigma    : 219.809
+sigma err: 6.72802
+chi2     : 24.3359
+ndf      : 23
+chi2/ndf : 1.05808
+
+energy deposition in NPS with e- 3_25GeV 1_0mm
+mean     : 3198.52
+mean err : 0.614392
+sigma    : 21.9603
+sigma err: 0.784689
+chi2     : 50.2259
+ndf      : 10
+chi2/ndf : 5.02259
+
+optical photons in NPS with e- 3_25GeV 1_0mm
+mean     : 36374.7
+mean err : 10.2154
+sigma    : 353.567
+sigma err: 11.7882
+chi2     : 24.8549
+ndf      : 15
+chi2/ndf : 1.65699
+
+optical photons in PMT with e- 3_25GeV 1_0mm
+mean     : 49323.7
+mean err : 13.9158
+sigma    : 450.376
+sigma err: 13.4843
+chi2     : 20.9928
+ndf      : 15
+chi2/ndf : 1.39952
+
+energy deposition in NPS with e- 5_5GeV 1_0mm
+mean     : 5400.05
+mean err : 1.35096
+sigma    : 47.7456
+sigma err: 1.97685
+chi2     : 49.7599
+ndf      : 12
+chi2/ndf : 4.14666
+
+optical photons in NPS with e- 5_5GeV 1_0mm
+mean     : 61490.8
+mean err : 16.4998
+sigma    : 564.984
+sigma err: 19.8735
+chi2     : 39.1048
+ndf      : 14
+chi2/ndf : 2.7932
+
+optical photons in PMT with e- 5_5GeV 1_0mm
+mean     : 83501.8
+mean err : 16.4139
+sigma    : 667.873
+sigma err: 18.1997
+chi2     : 11.6458
+ndf      : 14
+chi2/ndf : 0.831843
+
+energy deposition in NPS with e- 7_75GeV 1_0mm
+mean     : 7605.71
+mean err : 2.29984
+sigma    : 70.2458
+sigma err: 3.79973
+chi2     : 50.1442
+ndf      : 11
+chi2/ndf : 4.55857
+
+optical photons in NPS with e- 7_75GeV 1_0mm
+mean     : 86459.1
+mean err : 23.0218
+sigma    : 883.294
+sigma err: 27.468
+chi2     : 93.1736
+ndf      : 17
+chi2/ndf : 5.4808
+
+optical photons in PMT with e- 7_75GeV 1_0mm
+mean     : 117621
+mean err : 23.0162
+sigma    : 824.884
+sigma err: 22.711
+chi2     : 14.9252
+ndf      : 12
+chi2/ndf : 1.24377
+
+energy deposition in NPS with e- 10GeV 1_0mm
+mean     : 9787.95
+mean err : 2.51864
+sigma    : 89.2294
+sigma err: 3.19379
+chi2     : 95.1761
+ndf      : 14
+chi2/ndf : 6.79829
+
+optical photons in NPS with e- 10GeV 1_0mm
+mean     : 111553
+mean err : 32.6703
+sigma    : 1038.88
+sigma err: 43.0477
+chi2     : 45.8573
+ndf      : 13
+chi2/ndf : 3.52748
+
+optical photons in PMT with e- 10GeV 1_0mm
+mean     : 151765
+mean err : 30.5223
+sigma    : 987.189
+sigma err: 28.7139
+chi2     : 36.7438
+ndf      : 11
+chi2/ndf : 3.34035
+
+energy deposition in NPS with e- 500MeV 1_5mm
+mean     : 493.823
+mean err : 0.115987
+sigma    : 4.32629
+sigma err: 0.151667
+chi2     : 44.4443
+ndf      : 13
+chi2/ndf : 3.41879
+
+optical photons in NPS with e- 500MeV 1_5mm
+mean     : 5604.71
+mean err : 2.92687
+sigma    : 96.0651
+sigma err: 3.23177
+chi2     : 42.298
+ndf      : 27
+chi2/ndf : 1.56659
+
+optical photons in PMT with e- 500MeV 1_5mm
+mean     : 7570.58
+mean err : 4.02634
+sigma    : 152.601
+sigma err: 3.93182
+chi2     : 52.0529
+ndf      : 36
+chi2/ndf : 1.44591
+
+energy deposition in NPS with e- 1GeV 1_5mm
+mean     : 985.233
+mean err : 0.255465
+sigma    : 7.71769
+sigma err: 0.28724
+chi2     : 41.1047
+ndf      : 11
+chi2/ndf : 3.73679
+
+optical photons in NPS with e- 1GeV 1_5mm
+mean     : 11188.9
+mean err : 4.96477
+sigma    : 152.973
+sigma err: 4.92211
+chi2     : 47.8081
+ndf      : 22
+chi2/ndf : 2.17309
+
+optical photons in PMT with e- 1GeV 1_5mm
+mean     : 15137.6
+mean err : 8.2728
+sigma    : 246.046
+sigma err: 8.58037
+chi2     : 31.7891
+ndf      : 25
+chi2/ndf : 1.27157
+
+energy deposition in NPS with e- 3_25GeV 1_5mm
+mean     : 3191.81
+mean err : 0.827929
+sigma    : 24.3115
+sigma err: 0.922639
+chi2     : 59.6787
+ndf      : 11
+chi2/ndf : 5.42533
+
+optical photons in NPS with e- 3_25GeV 1_5mm
+mean     : 36292.5
+mean err : 10.2151
+sigma    : 385.846
+sigma err: 10.8588
+chi2     : 51.7153
+ndf      : 19
+chi2/ndf : 2.72186
+
+optical photons in PMT with e- 3_25GeV 1_5mm
+mean     : 49276
+mean err : 14.2602
+sigma    : 491.204
+sigma err: 16.071
+chi2     : 34.7013
+ndf      : 16
+chi2/ndf : 2.16883
+
+energy deposition in NPS with e- 5_5GeV 1_5mm
+mean     : 5376.6
+mean err : 1.6034
+sigma    : 56.9254
+sigma err: 1.86997
+chi2     : 123.416
+ndf      : 17
+chi2/ndf : 7.25979
+
+optical photons in NPS with e- 5_5GeV 1_5mm
+mean     : 61194.3
+mean err : 19.2326
+sigma    : 739.475
+sigma err: 22.083
+chi2     : 74.7317
+ndf      : 20
+chi2/ndf : 3.73658
+
+optical photons in PMT with e- 5_5GeV 1_5mm
+mean     : 83302
+mean err : 18.9124
+sigma    : 694.332
+sigma err: 19.9337
+chi2     : 24.0307
+ndf      : 14
+chi2/ndf : 1.71648
+
+energy deposition in NPS with e- 7_75GeV 1_5mm
+mean     : 7564.67
+mean err : 2.8179
+sigma    : 98.2712
+sigma err: 4.24606
+chi2     : 95.8896
+ndf      : 18
+chi2/ndf : 5.3272
+
+optical photons in NPS with e- 7_75GeV 1_5mm
+mean     : 86162.9
+mean err : 26.3062
+sigma    : 966.601
+sigma err: 29.9417
+chi2     : 77.2326
+ndf      : 19
+chi2/ndf : 4.06487
+
+optical photons in PMT with e- 7_75GeV 1_5mm
+mean     : 117359
+mean err : 24.8668
+sigma    : 969.7
+sigma err: 28.0028
+chi2     : 31.4067
+ndf      : 14
+chi2/ndf : 2.24333
+
+energy deposition in NPS with e- 10GeV 1_5mm
+mean     : 9752.43
+mean err : 4.22036
+sigma    : 137.453
+sigma err: 6.51444
+chi2     : 68.6236
+ndf      : 19
+chi2/ndf : 3.61177
+
+optical photons in NPS with e- 10GeV 1_5mm
+mean     : 111075
+mean err : 37.0442
+sigma    : 1192.16
+sigma err: 38.7184
+chi2     : 62.7654
+ndf      : 18
+chi2/ndf : 3.48697
+
+optical photons in PMT with e- 10GeV 1_5mm
+mean     : 151340
+mean err : 37.0431
+sigma    : 1264.5
+sigma err: 42.9653
+chi2     : 27.1714
+ndf      : 13
+chi2/ndf : 2.0901
+
+energy deposition in NPS with e- 500MeV 2_0mm
+mean     : 493.447
+mean err : 0.128947
+sigma    : 4.31243
+sigma err: 0.156166
+chi2     : 53.0887
+ndf      : 13
+chi2/ndf : 4.08375
+
+optical photons in NPS with e- 500MeV 2_0mm
+mean     : 5588.34
+mean err : 2.53598
+sigma    : 101.876
+sigma err: 2.71435
+chi2     : 60.4758
+ndf      : 33
+chi2/ndf : 1.8326
+
+optical photons in PMT with e- 500MeV 2_0mm
+mean     : 7571.24
+mean err : 3.95093
+sigma    : 147.393
+sigma err: 4.09142
+chi2     : 35.6758
+ndf      : 33
+chi2/ndf : 1.08109
+
+energy deposition in NPS with e- 1GeV 2_0mm
+mean     : 983.549
+mean err : 0.267116
+sigma    : 8.84539
+sigma err: 0.302664
+chi2     : 76.2286
+ndf      : 14
+chi2/ndf : 5.4449
+
+optical photons in NPS with e- 1GeV 2_0mm
+mean     : 11166
+mean err : 4.46894
+sigma    : 172.417
+sigma err: 4.74577
+chi2     : 35.9671
+ndf      : 28
+chi2/ndf : 1.28454
+
+optical photons in PMT with e- 1GeV 2_0mm
+mean     : 15124.9
+mean err : 7.1274
+sigma    : 250.226
+sigma err: 7.59459
+chi2     : 31.5431
+ndf      : 27
+chi2/ndf : 1.16826
+
+energy deposition in NPS with e- 3_25GeV 2_0mm
+mean     : 3175.96
+mean err : 1.08445
+sigma    : 40.3464
+sigma err: 1.51704
+chi2     : 105.223
+ndf      : 19
+chi2/ndf : 5.53808
+
+optical photons in NPS with e- 3_25GeV 2_0mm
+mean     : 36127.6
+mean err : 12.9971
+sigma    : 478.238
+sigma err: 14.0106
+chi2     : 60.0729
+ndf      : 23
+chi2/ndf : 2.61187
+
+optical photons in PMT with e- 3_25GeV 2_0mm
+mean     : 49118.6
+mean err : 14.1786
+sigma    : 561.492
+sigma err: 15.8856
+chi2     : 34.9178
+ndf      : 20
+chi2/ndf : 1.74589
+
+energy deposition in NPS with e- 5_5GeV 2_0mm
+mean     : 5358.57
+mean err : 2.28098
+sigma    : 80.0575
+sigma err: 3.449
+chi2     : 96.1546
+ndf      : 21
+chi2/ndf : 4.57879
+
+optical photons in NPS with e- 5_5GeV 2_0mm
+mean     : 61019.7
+mean err : 20.9799
+sigma    : 784.149
+sigma err: 23.613
+chi2     : 66.5073
+ndf      : 22
+chi2/ndf : 3.02306
+
+optical photons in PMT with e- 5_5GeV 2_0mm
+mean     : 83134.9
+mean err : 25.0377
+sigma    : 744.937
+sigma err: 26.2228
+chi2     : 39.9337
+ndf      : 14
+chi2/ndf : 2.85241
+
+energy deposition in NPS with e- 7_75GeV 2_0mm
+mean     : 7542.78
+mean err : 3.25128
+sigma    : 107.808
+sigma err: 4.82565
+chi2     : 85.8532
+ndf      : 20
+chi2/ndf : 4.29266
+
+optical photons in NPS with e- 7_75GeV 2_0mm
+mean     : 85928.2
+mean err : 35.0251
+sigma    : 1092.6
+sigma err: 41.4319
+chi2     : 82.2792
+ndf      : 20
+chi2/ndf : 4.11396
+
+optical photons in PMT with e- 7_75GeV 2_0mm
+mean     : 117024
+mean err : 32.0013
+sigma    : 1096.7
+sigma err: 32.6005
+chi2     : 48.9073
+ndf      : 16
+chi2/ndf : 3.0567
+
+energy deposition in NPS with e- 10GeV 2_0mm
+mean     : 9718.94
+mean err : 4.23337
+sigma    : 126.616
+sigma err: 5.87587
+chi2     : 66.174
+ndf      : 18
+chi2/ndf : 3.67633
+
+optical photons in NPS with e- 10GeV 2_0mm
+mean     : 110680
+mean err : 48.2493
+sigma    : 1459.41
+sigma err: 63.0437
+chi2     : 64.3767
+ndf      : 19
+chi2/ndf : 3.38825
+
+optical photons in PMT with e- 10GeV 2_0mm
+mean     : 150989
+mean err : 34.2401
+sigma    : 1253.78
+sigma err: 35.3144
+chi2     : 58.5207
+ndf      : 15
+chi2/ndf : 3.90138
+

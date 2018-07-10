@@ -1,0 +1,287 @@
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.62e-06
+
+position : 1
+slope : 0.0137351
+dose : 3.7567
+
+position : 2
+slope : 0.0136502
+dose : 3.73347
+
+position : 3
+slope : 0.01413
+dose : 3.86471
+
+position : 4
+slope : 0.0125571
+dose : 3.43448
+
+position : 5
+slope : 0.0137667
+dose : 3.76532
+
+position : 6
+slope : 0.0134072
+dose : 3.66699
+
+position : 7
+slope : 0.0150367
+dose : 4.1127
+
+position : 8
+slope : 0.0160993
+dose : 4.40332
+
+position : 9
+slope : 0.0155618
+dose : 4.2563
+
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.62e-06
+
+position : 1
+slope : 0.0741505
+dose : 20.2809
+
+position : 2
+slope : 0.0682547
+dose : 18.6683
+
+position : 3
+slope : 0.0666534
+dose : 18.2304
+
+position : 4
+slope : 0.08386
+dose : 22.9366
+
+position : 5
+slope : 0.0738571
+dose : 20.2007
+
+position : 6
+slope : 0.0714663
+dose : 19.5467
+
+position : 7
+slope : 0.0541418
+dose : 14.8083
+
+position : 8
+slope : 0.0410345
+dose : 11.2234
+
+position : 9
+slope : 0.0452366
+dose : 12.3727
+
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.62e-06
+
+position : 1
+slope : 0.0429411
+dose : 11.7448
+
+position : 2
+slope : 0.0431918
+dose : 11.8134
+
+position : 3
+slope : 0.042265
+dose : 11.5599
+
+position : 4
+slope : 0.042551
+dose : 11.6381
+
+position : 5
+slope : 0.0422491
+dose : 11.5556
+
+position : 6
+slope : 0.0431962
+dose : 11.8146
+
+position : 7
+slope : 0.0413228
+dose : 11.3022
+
+position : 8
+slope : 0.041396
+dose : 11.3222
+
+position : 9
+slope : 0.0430091
+dose : 11.7634
+
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.62e-06
+
+position : 1
+slope : 0.0429411
+dose : 11.7448
+
+position : 2
+slope : 0.0431918
+dose : 11.8134
+
+position : 3
+slope : 0.042265
+dose : 11.5599
+
+position : 4
+slope : 0.042551
+dose : 11.6381
+
+position : 5
+slope : 0.0422491
+dose : 11.5556
+
+position : 6
+slope : 0.0431962
+dose : 11.8146
+
+position : 7
+slope : 0.0413228
+dose : 11.3022
+
+position : 8
+slope : 0.041396
+dose : 11.3222
+
+position : 9
+slope : 0.0430091
+dose : 11.7634
+
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.62e-06
+
+position : 1
+slope : 0.0429411
+dose : 11.7448
+
+position : 2
+slope : 0.0431918
+dose : 11.8134
+
+position : 3
+slope : 0.042265
+dose : 11.5599
+
+position : 4
+slope : 0.042551
+dose : 11.6381
+
+position : 5
+slope : 0.0422491
+dose : 11.5556
+
+position : 6
+slope : 0.0431962
+dose : 11.8146
+
+position : 7
+slope : 0.0413228
+dose : 11.3022
+
+position : 8
+slope : 0.041396
+dose : 11.3222
+
+position : 9
+slope : 0.0430091
+dose : 11.7634
+
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.62e-06
+
+position : 1
+slope : 0.0741505
+dose : 20.2809
+
+position : 2
+slope : 0.0682547
+dose : 18.6683
+
+position : 3
+slope : 0.0666534
+dose : 18.2304
+
+position : 4
+slope : 0.08386
+dose : 22.9366
+
+position : 5
+slope : 0.0738571
+dose : 20.2007
+
+position : 6
+slope : 0.0714663
+dose : 19.5467
+
+position : 7
+slope : 0.0541418
+dose : 14.8083
+
+position : 8
+slope : 0.0410345
+dose : 11.2234
+
+position : 9
+slope : 0.0452366
+dose : 12.3727
+
+epsilon : 2204
+I : 1
+rho : 1.024
+G : 1.2e-06
+
+position : 1
+slope : 0.0741505
+dose : 27.3792
+
+position : 2
+slope : 0.0682547
+dose : 25.2023
+
+position : 3
+slope : 0.0666534
+dose : 24.611
+
+position : 4
+slope : 0.08386
+dose : 30.9644
+
+position : 5
+slope : 0.0738571
+dose : 27.2709
+
+position : 6
+slope : 0.0714663
+dose : 26.3881
+
+position : 7
+slope : 0.0541418
+dose : 19.9913
+
+position : 8
+slope : 0.0410345
+dose : 15.1515
+
+position : 9
+slope : 0.0452366
+dose : 16.7031
+

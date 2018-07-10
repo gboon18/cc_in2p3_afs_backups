@@ -1,0 +1,2 @@
+2.
+// field strength (as a fraction of the maximum)

@@ -1,0 +1,42 @@
+sqrt(A*A + (B/sqrt(E))*(B/sqrt(E)) + (C/E)*(C/E))
+
+gap : 0.0mm
+A       : 0.614905
+A error : 0.0183461
+B       : 1
+B error : 0.0181465
+C       : 1
+C error : 0.784854
+
+gap : 0.5mm
+A       : 0.700264
+A error : 0.0285792
+B       : 1
+B error : 0.0193011
+C       : 1
+C error : 0.0185798
+
+gap : 1.0mm
+A       : 0.751034
+A error : 0.0222647
+B       : 1
+B error : 0.00853799
+C       : 1
+C error : 0.00704138
+
+gap : 1.5mm
+A       : 0.760584
+A error : 0.0236977
+B       : 1
+B error : 0.0103439
+C       : 1
+C error : 0.00632771
+
+gap : 2.0mm
+A       : 0.92845
+A error : 0.0295246
+B       : 1
+B error : 0.0234507
+C       : 1
+C error : 0.0432651
+
