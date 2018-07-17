@@ -809,7 +809,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructVolumes()
   //20180209(finish)
 
   //20171027(start)
-  fCheckOverlaps = true;//false;//activate checing overlaps
+  fCheckOverlaps = false;//true;//false;//activate checing overlaps
   //20171027(finish)
 
   //20171006(start) new world box
@@ -2036,6 +2036,41 @@ G4VPhysicalVolume* DetectorConstruction::ConstructVolumes()
     G4double position_Z = position1 - position4;
   */
   //20180412(finish)
+
+
+  //20180710(start)(temporary, to show the position of Bogdan's magnetic field)
+  // G4RotationMatrix *yBogdanFieldRot = new G4RotationMatrix;  // Rotates X and Z axes only
+  // yBogdanFieldRot->rotateY(-2.2*pi/180.);                     // Rotate -8.2 degrees
+  // G4Box* sBogdan_20cm = new G4Box("Bogdan_20cm_sol", (200.+1.)*cm, (200.+1.)*cm, (300.+1.)*cm);
+  // G4LogicalVolume* lBogdan_20cm = new G4LogicalVolume(sBogdan_20cm,
+  // 						      fWorldMater,
+  // 						      "Bogdan_20cm_sol");
+
+  // new G4PVPlacement(yBogdanFieldRot,
+  // 		    G4ThreeVector(157*sin(2.2*pi/180.)*cm, 0 , 157*cos(2.2*pi/180.)*cm),
+  // 		    lBogdan_20cm,
+  // 		    "Bogdan_20cm_pos",
+  // 		    lWorld,
+  // 		    false,
+  // 		    0,
+  // 		    fCheckOverlaps);
+
+  // G4Box* sBogdan_5cm = new G4Box("Bogdan_5cm_sol", (75.+1.)*cm, (50.+1.)*cm, (100.+1.)*cm);
+  // G4LogicalVolume* lBogdan_5cm = new G4LogicalVolume(sBogdan_5cm,
+  // 						      fWorldMater,
+  // 						      "Bogdan_5cm_sol");
+
+  // new G4PVPlacement(yBogdanFieldRot,
+  // 		    G4ThreeVector(0, 0, 0),
+  // 		    lBogdan_5cm,
+  // 		    "Bogdan_5cm_pos",
+  // 		    lBogdan_20cm,
+  // 		    false,
+  // 		    0,
+  // 		    fCheckOverlaps);
+
+  //20180710(finish)(temporary, to show the position of Bogdan's magnetic field)
+
   //20171130(start)
   G4Box*
     sSweepingMagnetic = new G4Box("SweepingMagnetic_sol", 0.5*fSweepingMagnet_X, 0.5*fSweepingMagnet_Y, 0.5*fSweepingMagnet_Z);
@@ -2047,7 +2082,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructVolumes()
   				       "SweepingMagnetic_log");
 
   G4RotationMatrix *ySweepingMagnetRot = new G4RotationMatrix;  // Rotates X and Z axes only
-  ySweepingMagnetRot->rotateY(fSweepingMagnet_theta);                     // Rotate 2.70 degrees
+  ySweepingMagnetRot->rotateY(fSweepingMagnet_theta);                     // Rotate -8.2 degrees
 
   new G4PVPlacement(ySweepingMagnetRot,
   		    //20180412(start)
@@ -2779,6 +2814,10 @@ G4VPhysicalVolume* DetectorConstruction::ConstructVolumes()
   fLogicBeampipe2Vacuum->SetVisAttributes(Beampipe2VacuumVisAtt);
   G4VisAttributes* Beampipe3VacuumVisAtt = new G4VisAttributes(G4Colour(0.,1.,0.));//green
   fLogicBeampipe3Vacuum->SetVisAttributes(Beampipe3VacuumVisAtt);
+  //20180710(start)
+  G4VisAttributes* SweepingMagnetVisAtt = new G4VisAttributes(G4Colour(1.,0.,0.));//red
+  fLogicMagnetic->SetVisAttributes(SweepingMagnetVisAtt);
+  //20180710(finish)
 
   //  G4VisAttributes* FluxVisAtt = new G4VisAttributes(G4Colour(0.,0.,1.));//blue
   //  fLogicFlux->SetVisAttributes(FluxVisAtt);
@@ -2851,19 +2890,19 @@ void DetectorConstruction::ConstructSDandField()
   //B5MagneticField(UniformField)
   //
 
-  // static G4bool fieldIsInitialized = field;//"true" : field on, "false" : field off
-  // if(fieldIsInitialized)    {
-  //   fMagneticField = new B5MagneticField();
-  //   fFieldMgr = new G4FieldManager();
-  //   fFieldMgr->SetDetectorField(fMagneticField);
-  //   fFieldMgr->CreateChordFinder(fMagneticField);
-  //   G4bool forceToAllDaughters = true;
-  //   fLogicMagnetic->SetFieldManager(fFieldMgr, forceToAllDaughters);
-  //   //20171010(finish)
-  //   // Register the field and its manager for deleting
-  //   G4AutoDelete::Register(fMagneticField);
-  //   G4AutoDelete::Register(fFieldMgr);
-  // }
+  static G4bool fieldIsInitialized = field;//"true" : field on, "false" : field off
+  if(fieldIsInitialized)    {
+    fMagneticField = new B5MagneticField();
+    fFieldMgr = new G4FieldManager();
+    fFieldMgr->SetDetectorField(fMagneticField);
+    fFieldMgr->CreateChordFinder(fMagneticField);
+    G4bool forceToAllDaughters = true;
+    fLogicMagnetic->SetFieldManager(fFieldMgr, forceToAllDaughters);
+    //20171010(finish)
+    // Register the field and its manager for deleting
+    G4AutoDelete::Register(fMagneticField);
+    G4AutoDelete::Register(fFieldMgr);
+  }
   //20171121(start)
   //
   //SimpleField(FieldMap)
@@ -2877,46 +2916,46 @@ void DetectorConstruction::ConstructSDandField()
   */
   //20171121(finish)
   
-  G4FieldManager* localFieldMgr = new G4FieldManager();
-  // static G4bool fieldIsInitialized = true;//false;//"true" : field off, "false" : field on
-  // if(!fieldIsInitialized)    {
-  // 20180426(start)
-  // field on off parameterized
-  static G4bool fieldIsInitialized = field;//"true" : field on, "false" : field off
-  //20180426(finish)
-  if(fieldIsInitialized)    {
-    fField = new SimpleField();
+  // G4FieldManager* localFieldMgr = new G4FieldManager();
+  // // static G4bool fieldIsInitialized = true;//false;//"true" : field off, "false" : field on
+  // // if(!fieldIsInitialized)    {
+  // // 20180426(start)
+  // // field on off parameterized
+  // static G4bool fieldIsInitialized = field;//"true" : field on, "false" : field off
+  // //20180426(finish)
+  // if(fieldIsInitialized)    {
+  //   fField = new SimpleField();
   
-    //The ChordFinder is an helper class to track particles 
-    //in magnetic fields, it sets the accuracy to be used.
-    /* 
-       globalFieldMgr->CreateChordFinder(fField);      
-       globalFieldMgr->SetDetectorField(fField);
-       fEquation = new G4Mag_UsualEqRhs (fField);
-       fStepper = new G4ClassicalRK4 (fEquation);
-       fChordFinder = new G4ChordFinder(fField,1e-4*m,fStepper);
-       globalFieldMgr->SetChordFinder(fChordFinder);
-       globalFieldMgr->SetDetectorField(fField);
-       globalFieldMgr->GetChordFinder()->SetDeltaChord(1e-4*m);
-       globalFieldMgr->SetDeltaIntersection(1e-4*m);
-       globalFieldMgr->SetDeltaOneStep(1e-4*m);
-       //    logicEnv->SetFieldManager(globalFieldMgr,true);
-       */
+  //   //The ChordFinder is an helper class to track particles 
+  //   //in magnetic fields, it sets the accuracy to be used.
+  //   /* 
+  //      globalFieldMgr->CreateChordFinder(fField);      
+  //      globalFieldMgr->SetDetectorField(fField);
+  //      fEquation = new G4Mag_UsualEqRhs (fField);
+  //      fStepper = new G4ClassicalRK4 (fEquation);
+  //      fChordFinder = new G4ChordFinder(fField,1e-4*m,fStepper);
+  //      globalFieldMgr->SetChordFinder(fChordFinder);
+  //      globalFieldMgr->SetDetectorField(fField);
+  //      globalFieldMgr->GetChordFinder()->SetDeltaChord(1e-4*m);
+  //      globalFieldMgr->SetDeltaIntersection(1e-4*m);
+  //      globalFieldMgr->SetDeltaOneStep(1e-4*m);
+  //      //    logicEnv->SetFieldManager(globalFieldMgr,true);
+  //      */
  
-    fEquation = new G4Mag_UsualEqRhs (fField);
-    fStepper = new G4ClassicalRK4 (fEquation);
-    fChordFinder = new G4ChordFinder(fField,1e-4*m,fStepper);
-    localFieldMgr->SetChordFinder(fChordFinder);
-    localFieldMgr->SetDetectorField(fField);
-    localFieldMgr->GetChordFinder()->SetDeltaChord(1e-4*m);
-    localFieldMgr->SetDeltaIntersection(1e-4*m);
-    localFieldMgr->SetDeltaOneStep(1e-4*m);
-    lWorld->SetFieldManager(localFieldMgr,true);
-        G4cout << "Magnetic field has been constructed " << 
-      "in DetectorConstruction::ConstructField()" << G4endl;
-    fieldIsInitialized = true; 
+  //   fEquation = new G4Mag_UsualEqRhs (fField);
+  //   fStepper = new G4ClassicalRK4 (fEquation);
+  //   fChordFinder = new G4ChordFinder(fField,1e-4*m,fStepper);
+  //   localFieldMgr->SetChordFinder(fChordFinder);
+  //   localFieldMgr->SetDetectorField(fField);
+  //   localFieldMgr->GetChordFinder()->SetDeltaChord(1e-4*m);
+  //   localFieldMgr->SetDeltaIntersection(1e-4*m);
+  //   localFieldMgr->SetDeltaOneStep(1e-4*m);
+  //   lWorld->SetFieldManager(localFieldMgr,true);
+  //       G4cout << "Magnetic field has been constructed " << 
+  //     "in DetectorConstruction::ConstructField()" << G4endl;
+  //   fieldIsInitialized = true; 
 
-  }
+  // }
    
 }
   //20181009(finish)
